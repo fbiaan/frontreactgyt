@@ -1,0 +1,26 @@
+.styled-table {
+    flex: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table td {  
+    color : black;
+    border: 1px solid #000;
+
+}    
+.styled-table tbody tr:nth-child(odd) {
+        background-color: #eaf5f7;
+}
+      
+.styled-table tbody tr:nth-child(even) {
+        background-color: #bdc0be;
+}
+  
